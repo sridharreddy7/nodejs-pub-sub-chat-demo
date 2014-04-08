@@ -3,7 +3,7 @@ var app = require('http').createServer(handler),
 	fs = require('fs'),
 	redis = require('redis');
 
-app.listen(80);
+app.listen(8765);
 
 function handler(req, res) {
 	// just return the index HTML
